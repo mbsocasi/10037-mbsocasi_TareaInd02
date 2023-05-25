@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Capitulo 2 - Formulario</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container text-center" style="margin-top: 40px;">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="jumbotron">
+                <div class="form-group" style="margin-top: -50px;">
+                    <h1 style="color: rgb(194, 10, 163);">
+                        Formulario
+                    </h1>
+                </div>
+
+                <hr>
+
+                <form class="form-horizontal" style="margin-left: 50px;">
+                    <div class="form-group input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </span>
+                        <input type="email" class="form-control" name="email" placeholder="&#1064; Ingrese el nombre..."
+                            required>
+                    </div>
+
+                    <div class="form-group input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </span>
+                        <input type="email" class="form-control" name="email"
+                            placeholder="&#9000; Ingrese el usuario..." required>
+                    </div>
+
+                    <div class="form-group input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-lock"></span>
+                        </span>
+                        <input type="password" class="form-control" name="password"
+                            placeholder="&#9000; Ingrese la contraseña..." required>
+                    </div>
+
+                    <div class="form-group input-group ">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-lock"></span>
+                        </span>
+                        <input type="password" class="form-control" name="password"
+                            placeholder="&#128272; Confirme la contraseña..." required>
+                    </div>
+
+                    <div class="form-group divider"> </div>
+                    <h3>Género</h3>
+                    <div class="form-grup ">
+                        <label for="">Selecciones su genero</label>
+
+                        <select name="genero">
+                            <option value="">--Seleccione--</option>
+                            <option value="">Masculino</option>
+                            <option value="">Femenino</option>
+                            <option value="">No binario</option>
+                            <option value="">Elicoptero Apache</option>
+                            <option value=" ">Otro?..</option>
+                        </select>
+                    </div>
+
+
+
+
+                    <div class="form-group text-left">
+                        <label>
+                            <input type="checkbox">
+                            recuerdame
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary" style="width: 90%"><span class=" glyphicon 
+                            glyphicon-saved ">Guardar</span></button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>
